@@ -21,7 +21,7 @@
 }
 
 body {
-    background: url('D:\ranjanr.jpg');
+    background: url('ranjanr.jpg');
     color: var(--text-color);
     font-family: var(--font-family);
     overflow-x: hidden;
