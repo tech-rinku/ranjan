@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjan's Portfolio</title>
+    <link rel="stylesheet" href="D:/programm/css/website2.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" aria-label="Ranjan's Portfolio">welcome to my profile</a>
+            </div>
+            <ul class="nav-links">
+                <li><button class="nav-button active" data-target="home" aria-label="Navigate to Home">Home</button></li>
+                <li><button class="nav-button" data-target="about" aria-label="Navigate to About">About</button></li>
+                <li><button class="nav-button" data-target="skills" aria-label="Navigate to Skills">Skills</button></li>
+                <li><button class="nav-button" data-target="certificate" aria-label="Navigate to Certificates">Certificates</button></li>
+                <li><button class="nav-button" data-target="project" aria-label="Navigate to Projects">Projects</button></li>
+                <li><button class="nav-button" data-target="contact" aria-label="Navigate to Contact">Contact</button></li>
+            </ul>
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="sectionactive">
+                <div class="profile-wrapper">
+                    <img src="D:/rinkur.jpg" alt="Ranjan's Photo" class="profile-pic" id="profile-pic" loading="lazy">
+                </div>
+                <div class="home-content">
+                    <h2 class="home-content">Hey,This is <span>Ranjan</span></h2>
+                    <h3 class="typing-text">I'm a <span></span></h3>
+                    <p> <span>Hello there,</span>myself Ranjan  <small>I am currently pursuing a Bachelor of Computer Applications (BCA) at the Academy of Business Administration.
+                         With a strong foundation in computer science principles and programming languages, I am passionate about Java development and aim to build a career as a Java Developer. 
+                         Through continuous learning and hands-on experience, I am focused on honing my skills in software development to contribute to innovative and efficient solutions.
+                         </small></p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-container">
+                <h2><span>About Me</span></h2>
+                <p class="about-paragraph">
+                    With a strong foundation in computer science principles and programming languages, I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring the latest tech trends or working on personal projects to enhance my skills.
+                </p>
+                <div class="about-interests">
+                    <button class="interest-button" id="study-interest" aria-expanded="false">Study Interests</button>
+                    <button class="interest-button" id="hobby-interest" aria-expanded="false">Hobbies</button>
+                </div>
+                <div class="interest-content" id="study-content" aria-hidden="true">
+                    <ul>
+                        <li><span>Java Development</span></li>
+                        <li>Web Design & Development</li>
+                        <li><span>3D Animations</span></li>
+                        <li>Open Source Contributions</li>
+                        <li><span>Tech Blogging</span></li>
+                    </ul>
+                </div>
+                <div class="interest-content" id="hobby-content" aria-hidden="true">
+                    <ul>
+                        <li>Reading Tech Articles</li>
+                        <li><span>Gaming</span></li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item" data-skill="Java">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item" data-skill="C++">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item" data-skill="Android">
+                        <i class="fab fa-android"></i>
+                        <span>Android Development</span>
+                    </div>
+                </div>
+                <p class="skills-paragraph">
+                    I possess a diverse set of programming skills including Java, C++, Python, and Android Development. These skills enable me to build robust applications, develop efficient algorithms, and create user-friendly mobile solutions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+        <section id="certificate" class="section">
+            <div class="certificate-container">
+                <h2>Certificates</h2>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Java Programming Certification</span>
+                    </div>
+                    <div class="certificate-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Web Development Bootcamp</span>
+                    </div>
+                    <div class="certificate-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Android App Development</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section id="project" class="section">
+            <div class="project-container">
+                <h2>Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>Portfolio Website</span>
+                    </div>
+                    <div class="project-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>E-commerce Application</span>
+                    </div>
+                    <div class="project-item">
+                        <i class="fas fa-project-diagram"></i>
+                        <span>3D Animation Project</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <h2><span>Contact Me</span></h2>
+                <br>
+                <p>
+                    <h3>Let’s Connect! </h3>
+                    <br>
+                    Your thoughts and connections mean the world to me! I’m just a click away on various platforms. Follow me on <span>Instagram</span> for a peek into my creative journey, connect with me on <span>LinkedIn</span> to explore potential collaborations, check out my <span>GitHub</span> for my latest coding adventures, join me on <span>Facebook</span> for a more personal touch, and tweet with me on <span>Twitter </span>for my real-time insights. I’m excited to engage and inspire together—let's make magic happen! Click on these icons and connect with me 😊
+                    </p>
+                </p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/rinku_rinku_151?igsh" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/yourusername" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://facebook.com/yourusername" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+               <h2>THANK YOU! 💞</h2>
+            </diV>
+             
+           
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; rb3520757@gmail.com</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="D:/programm/java script/website2.js"></script>
+</body>
+</html>
